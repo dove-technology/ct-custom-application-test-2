@@ -128,3 +128,16 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+#node_modules
+coverage
+.terraform
+*.tfstate*
+*.tfvars
+
+.DS_Store
+.vscode
+build/
+.env
+public/
