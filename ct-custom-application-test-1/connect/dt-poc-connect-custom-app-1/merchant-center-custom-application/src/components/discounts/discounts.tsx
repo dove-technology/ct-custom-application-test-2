@@ -48,9 +48,6 @@ const Discounts = (props: TDiscountsProps) => {
       {ldg && <LoadingSpinner />}
 
       <Spacings.Stack scale="l">
-        <div><pre><code>{JSON.stringify(result)}</code></pre></div>
-      </Spacings.Stack>
-      <Spacings.Stack scale="l">
         <div>
           <pre>
             <code>{JSON.stringify(res)}</code>
